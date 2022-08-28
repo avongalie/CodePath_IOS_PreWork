@@ -29,8 +29,10 @@ class ViewController: UIViewController {
         TextLabel.textColor = UIColor.purple
     }
 
+    
     @IBAction func ChangeViewColorClicked(_ sender: Any) {
         view.backgroundColor = UIColor.cyan
+        
     }
     @IBAction func ChangeTextClicked(_ sender: Any) {
         if TextField.text == "" {

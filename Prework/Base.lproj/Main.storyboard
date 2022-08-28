@@ -30,33 +30,16 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JP0-QS-12D">
-                                <rect key="frame" x="101" y="441" width="212" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Change Text Color" cornerStyle="capsule"/>
-                                <connections>
-                                    <action selector="ChangeTextColorClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIR-uA-bZt"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avJ-PW-S0M">
-                                <rect key="frame" x="101" y="506" width="212" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Change View Color" cornerStyle="capsule"/>
-                                <connections>
-                                    <action selector="ChangeTextColorClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BUb-5j-V5J"/>
-                                    <action selector="ChangeViewColorClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yOe-kb-Fch"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZr-14-NAK">
                                 <rect key="frame" x="104" y="389" width="207" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Change Text"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Change Text" cornerStyle="capsule"/>
                                 <connections>
                                     <action selector="ChangeTextClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rcm-2i-TaJ"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="day-O5-gKM">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Text Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="day-O5-gKM">
                                 <rect key="frame" x="114" y="334" width="186" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -66,6 +49,23 @@
                                     <action selector="TextFieldClicked:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="CZx-a0-Gzo"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMK-tl-tAH">
+                                <rect key="frame" x="104" y="506" width="207" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Change View Color" cornerStyle="capsule"/>
+                                <connections>
+                                    <action selector="ChangeViewColorClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="35H-aR-WRg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JP0-QS-12D">
+                                <rect key="frame" x="101" y="445" width="212" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Change Text Color" cornerStyle="capsule"/>
+                                <connections>
+                                    <action selector="ChangeTextColorClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIR-uA-bZt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
