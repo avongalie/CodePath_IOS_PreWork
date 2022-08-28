@@ -19,12 +19,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-##### Changing Text and Background Color
-![](https://i.imgur.com/gC4VQRf.gif)
-
-##### Changing Text String
-![](https://i.imgur.com/roTE9sf.gif)
-
+![](https://i.imgur.com/NRuwkvj.gif)
 
 ## Notes
 
