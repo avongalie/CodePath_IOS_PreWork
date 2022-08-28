@@ -1,43 +1,26 @@
-# Pre-work - CodePath Mobile Development IOS
+# CodePath PreWork IOS
 
 Submitted by: Alexsia Avila
 
 Time spent: 5 hours spent in total
 
-## User Stories
+### App Description
+This is a simple Swift app that allows users to interact with a text label and background color.
 
-The following **required** functionality is complete:
-
-* [ ] Users can change the text color by tappping a button.
-
-The following **optional** features are implemented:
-
-* [ ] Users can change the background color by tapping a button.
-* [ ] Users can revert the text and background color to their original color by tapping anywhere in the background.
-* [ ] Users can update the text by entering text in a text field and tapping a button.
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
+### App Walk-though
 ![](https://i.imgur.com/NRuwkvj.gif)
 
-## Notes
+### Required User Stories
+- [x] 1. User sees custom text in a label - Hello from {name}!
+- [x] 2. User see's custom background color.
+- [x] 3. User can tap a button to change the text color of the label.
 
-While I have prior expirence with developing websites, this is my first introduction to app development. It was very interesting and I spent majority of my time researching built-in functions such as endEditing and touchesBegan.
-
-## License
-
-    Copyright 2022 Alexsia Avila
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+### Optional User Stories
+- [x] 1. User can tap a button to change the color of the background view.
+- [x] 2. User can tap a button to change the text string of the label - Goodbye 👋.
+- [x] 3. User can tap on the background view to reset all views to default settings.
+- [x] 4. User can update the label text with custom text entered into the text field.
+   - [x] a. User can enter text into a text field using the keyboard.
+   - [x] b. User can tap the "Change text string" button to update the label with the text from the text field.
+   - [x] c. If the text field is empty, update label with default text string.
+   - [x] d. The keyboard is dismissed after the button has been tapped.
