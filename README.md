@@ -28,7 +28,7 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-While I have prior expirence with developing websites, this is my first introduction to app development. It was very interesting and I struggled a lot with understanding built-in functions such as endEditing and touchesBegan.
+While I have prior expirence with developing websites, this is my first introduction to app development. It was very interesting and I spent majority of my time researching built-in functions such as endEditing and touchesBegan.
 
 ## License
 
